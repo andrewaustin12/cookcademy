@@ -11,6 +11,7 @@
 		3F9C8B092985E5370041E15C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B082985E5370041E15C /* ContentView.swift */; };
 		3F9C8B0B2985E5380041E15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C8B0A2985E5380041E15C /* Assets.xcassets */; };
 		3F9C8B0E2985E5380041E15C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C8B0D2985E5380041E15C /* Preview Assets.xcassets */; };
+		3F9C8B182985E7930041E15C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B172985E7930041E15C /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3F9C8B082985E5370041E15C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F9C8B0A2985E5380041E15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9C8B0D2985E5380041E15C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F9C8B172985E7930041E15C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				3F9C8B062985E5370041E15C /* CookcademyApp.swift */,
+				3F9C8B172985E7930041E15C /* Recipe.swift */,
 				3F9C8B082985E5370041E15C /* ContentView.swift */,
 				3F9C8B0A2985E5380041E15C /* Assets.xcassets */,
 				3F9C8B0C2985E5380041E15C /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9C8B182985E7930041E15C /* Recipe.swift in Sources */,
 				3F9C8B092985E5370041E15C /* ContentView.swift in Sources */,
 				3F9C8B072985E5370041E15C /* CookcademyApp.swift in Sources */,
 			);
