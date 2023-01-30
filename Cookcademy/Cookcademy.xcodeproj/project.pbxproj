@@ -15,6 +15,7 @@
 		3F9C8B3829861C030041E15C /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B3729861C030041E15C /* RecipeData.swift */; };
 		3F9C8B3C298629160041E15C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B3B298629160041E15C /* RecipeDetailView.swift */; };
 		3F9C8B3E29863B320041E15C /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B3D29863B320041E15C /* AppColor.swift */; };
+		3F9C8B5A2987E8D90041E15C /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B592987E8D90041E15C /* RecipeCategoryGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3F9C8B3729861C030041E15C /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		3F9C8B3B298629160041E15C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		3F9C8B3D29863B320041E15C /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		3F9C8B592987E8D90041E15C /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				3F9C8B082985E5370041E15C /* RecipesListView.swift */,
 				3F9C8B3B298629160041E15C /* RecipeDetailView.swift */,
+				3F9C8B592987E8D90041E15C /* RecipeCategoryGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9C8B5A2987E8D90041E15C /* RecipeCategoryGridView.swift in Sources */,
 				3F9C8B182985E7930041E15C /* Recipe.swift in Sources */,
 				3F9C8B3C298629160041E15C /* RecipeDetailView.swift in Sources */,
 				3F9C8B3829861C030041E15C /* RecipeData.swift in Sources */,
