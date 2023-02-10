@@ -24,6 +24,7 @@ struct RecipeDetailView: View {
       HStack {
         Text(recipe.mainInformation.description)
           .font(.subheadline)
+          .multilineTextAlignment(.center)
           .padding()
         Spacer()
       }

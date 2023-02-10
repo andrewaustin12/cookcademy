@@ -17,6 +17,7 @@
 		3F9C8B3E29863B320041E15C /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B3D29863B320041E15C /* AppColor.swift */; };
 		3F9C8B5A2987E8D90041E15C /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B592987E8D90041E15C /* RecipeCategoryGridView.swift */; };
 		3F9C8B78298955870041E15C /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B77298955870041E15C /* ModifyRecipeView.swift */; };
+		3F9C8B94299681820041E15C /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C8B93299681820041E15C /* ModifyMainInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3F9C8B3D29863B320041E15C /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		3F9C8B592987E8D90041E15C /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 		3F9C8B77298955870041E15C /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
+		3F9C8B93299681820041E15C /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3F9C8B77298955870041E15C /* ModifyRecipeView.swift */,
+				3F9C8B93299681820041E15C /* ModifyMainInformationView.swift */,
 			);
 			path = ModifyRecipes;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				3F9C8B78298955870041E15C /* ModifyRecipeView.swift in Sources */,
 				3F9C8B092985E5370041E15C /* RecipesListView.swift in Sources */,
 				3F9C8B072985E5370041E15C /* CookcademyApp.swift in Sources */,
+				3F9C8B94299681820041E15C /* ModifyMainInformationView.swift in Sources */,
 				3F9C8B3E29863B320041E15C /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
