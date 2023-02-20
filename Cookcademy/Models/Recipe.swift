@@ -2,7 +2,7 @@
 //  Recipe.swift
 //  Cookcademy
 //
-//  Created by andrew austin on 1/28/23.
+//  Created by Ben Stone on 4/19/21.
 //
 
 import Foundation
@@ -13,10 +13,7 @@ struct Recipe: Identifiable {
     var mainInformation: MainInformation
     var ingredients: [Ingredient]
     var directions: [Direction]
-    
-    var isValid: Bool {
-        mainInformation.isValid && !ingredients.isEmpty && !directions.isEmpty
-    }
+    var isFavorite = false
     
     init() {
         self.init(mainInformation: MainInformation(name: "", description: "", author: "", category: .breakfast),
@@ -29,6 +26,10 @@ struct Recipe: Identifiable {
         self.ingredients = ingredients
         self.directions = directions
     }
+
+    var isValid: Bool {
+        mainInformation.isValid && !ingredients.isEmpty && !directions.isEmpty
+    }
 }
 
 struct MainInformation {
@@ -37,15 +38,15 @@ struct MainInformation {
     var author: String
     var category: Category
     
-    var isValid: Bool {
-        !name.isEmpty && !description.isEmpty && !author.isEmpty
-    }
-    
     enum Category: String, CaseIterable {
         case breakfast = "Breakfast"
         case lunch = "Lunch"
         case dinner = "Dinner"
         case dessert = "Dessert"
+    }
+    
+    var isValid: Bool {
+        !name.isEmpty && !description.isEmpty && !author.isEmpty
     }
 }
 
@@ -57,6 +58,7 @@ struct Direction: RecipeComponent {
         self.description = description
         self.isOptional = isOptional
     }
+    
     init() {
         self.init(description: "", isOptional: false)
     }
@@ -66,7 +68,17 @@ struct Ingredient: RecipeComponent {
     var name: String
     var quantity: Double
     var unit: Unit
-        
+    
+    init(name: String, quantity: Double, unit: Unit) {
+        self.name = name
+        self.quantity = quantity
+        self.unit = unit
+    }
+    
+    init() {
+        self.init(name: "", quantity: 1.0, unit: .none)
+    }
+    
     var description: String {
         let formattedQuantity = String(format: "%g", quantity)
         switch unit {
@@ -92,17 +104,8 @@ struct Ingredient: RecipeComponent {
         
         var singularName: String { String(rawValue.dropLast()) }
     }
-    
-    init(name: String, quantity: Double, unit: Unit) {
-        self.name = name
-        self.quantity = quantity
-        self.unit = unit
-    }
-    
-    init() {
-        self.init(name: "", quantity: 1.0, unit: .none)
-    }
 }
+
 
 extension Recipe {
     static let testRecipes: [Recipe] = [
@@ -420,4 +423,3 @@ extension Recipe {
                 )
     ]
 }
-
