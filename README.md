@@ -1,5 +1,12 @@
 # cookcademy
-A practice CRUD application built using what I have learned in Swift~~. 
+A practice CRUD application built using what I have learned in Swift.
+
+## What the app does
+This is a recipe app that allows you to add and store recipes by catagories. 
+
+Below is a video of how the app looks and works.
+
+<img src="./Cookcademy/Cookcademy/Assets.xcassets/finalVideo.gif" width="200" height="400">
 
 ## Technologies Used
 
@@ -14,11 +21,6 @@ Some of the methodologies used:
   * Encoding to JSON
 
 ## How to run the app
-Clone the repo and open with Xcode
+Clone the repo and open with Xcode.
 
-## What the app does
-This is a recipe app that allows you to add and store recipes by catagories. 
 
-Below is a video of how the app looks and works.
-
-<img src="./Cookcademy/Cookcademy/Assets.xcassets/finalVideo.gif" width="200" height="400">
