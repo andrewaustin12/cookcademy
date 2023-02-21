@@ -21,6 +21,9 @@ struct MainTableView: View {
                 .tabItem {Label("Settings", systemImage: "gear")}
         }
         .environmentObject(recipeData)
+        .onAppear {
+            recipeData.loadRecipes()
+        }
     }
 }
 
