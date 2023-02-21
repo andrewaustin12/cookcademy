@@ -21,4 +21,4 @@ This is a recipe app that allows you to add and store recipes by catagories.
 
 Below is a video of how the app looks and works.
 
-<img src="./Cookcademy/Cookcademy/Assets.xcassets/finalVideo.gif" width="150" height="300">
+<img src="./Cookcademy/Cookcademy/Assets.xcassets/finalVideo.gif" width="350" height="550">
