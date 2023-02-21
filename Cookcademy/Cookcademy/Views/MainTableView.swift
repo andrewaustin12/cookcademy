@@ -15,8 +15,10 @@ struct MainTableView: View {
             RecipeCategoryGridView()
                 .tabItem {Label("Recipes", systemImage: "list.dash")}
             NavigationView {
-                RecipesListView(viewStyle: .favorties)
-            }.tabItem {Label("Favorites", systemImage: "heart.fill")}
+                RecipesListView(viewStyle: .favorties)}
+                .tabItem {Label("Favorites", systemImage: "heart.fill")}
+            SettingsView()
+                .tabItem {Label("Settings", systemImage: "gear")}
         }
         .environmentObject(recipeData)
     }
